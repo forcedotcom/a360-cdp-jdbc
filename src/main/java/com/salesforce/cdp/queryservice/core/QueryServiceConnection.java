@@ -352,7 +352,10 @@ public class QueryServiceConnection implements Connection {
             }
 
             QueryConfigResponse configResponse = getQueryConfigResponse();
-            this.queryEngineEnum = QueryEngineEnum.fromValue(configResponse.getQueryengine());
+            this.queryEngineEnum = QueryEngineEnum.TRINO;
+            if(configResponse.getQueryengine() != null) {
+                QueryEngineEnum.fromValue(configResponse.getQueryengine());
+            }
             this.isValid = true;
             return true;
         } catch (Exception e) {
