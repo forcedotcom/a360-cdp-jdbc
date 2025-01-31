@@ -1,3 +1,12 @@
+# 🚀 **Introducing the Next-Gen JDBC Driver!** 🚀
+
+Unlock the power of Salesforce's cutting-edge query engine with our brand-new JDBC driver. 🌟 Backed by robust performance and top-tier results, we're proud to announce we’ve claimed **1st place** in the ClickBench benchmark — both in **native format** and **Parquet**! 🔥
+
+Experience the speed and reliability that sets us apart.
+
+👉 [Click here to learn more!](https://github.com/forcedotcom/datacloud-jdbc/)
+
+
 # Salesforce-CDP-jdbc
 The Salesforce CDP Java Database Connectivity (JDBC) driver allows for a JDBC connection to the Salesforce CDP ANSI SQL API. This connection lets you access and retrieve data using your favorite tools that are supported by JDBC.
 
